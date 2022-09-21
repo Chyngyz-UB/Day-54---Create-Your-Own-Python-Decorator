@@ -1,7 +1,5 @@
 # Day-54---Create-Your-Own-Python-Decorator
 import time
-current_time = time.time()
-print(current_time)
 
 def speed_calc_decorator(function):
     def wrapper_function():
